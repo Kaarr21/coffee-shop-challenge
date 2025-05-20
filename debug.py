@@ -26,3 +26,6 @@ def main():
     print(f"Espresso orders count: {espresso.num_orders()}")
     print(f"Latte average price: ${latte.average_price():.2f}")
     print(f"Espresso customers: {[customer.name for customer in espresso.customers()]}")
+
+    if __name__ == "__main__":
+        main()
