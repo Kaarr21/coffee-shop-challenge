@@ -1,7 +1,7 @@
 from order import Order
 class Coffee:
     def __init__ (self, name):
-        if isinstance (value, str) and len (value) >= 3:
+        if isinstance (name, str) and len (name) >= 3:
             self._name = name
         else:
             raise ValueError("Name must be a string with at least 3 characters.")

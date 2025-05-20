@@ -16,7 +16,7 @@ class Order:
         self._customer = customer
         self._coffee = coffee
         self._price = price
-        order._all.append(self)
+        Order._all.append(self)
 
     @property
     def customer (self):
